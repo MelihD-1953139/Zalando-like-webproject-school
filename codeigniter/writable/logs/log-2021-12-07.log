@@ -1,0 +1,868 @@
+CRITICAL - 2021-12-07 07:55:46 --> syntax error, unexpected token "echo"
+#0 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /app/system/CodeIgniter.php(789): class_exists()
+#4 /app/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 07:56:24 --> syntax error, unexpected token "echo"
+#0 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /app/system/CodeIgniter.php(789): class_exists()
+#4 /app/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 07:56:47 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 /app/app/Controllers/SigninController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /app/system/CodeIgniter.php(824): App\Controllers\SigninController->loginAuth()
+#4 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 08:10:22 --> syntax error, unexpected token "echo"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 08:10:31 --> syntax error, unexpected token "use"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 08:16:31 --> syntax error, unexpected token "use"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 08:18:27 --> syntax error, unexpected token ":", expecting "]"
+#0 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /app/system/Config/Factories.php(136): class_exists()
+#4 /app/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#5 /app/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+#6 /app/system/Config/Services.php(258): config()
+#7 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#8 /app/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#9 /app/system/Config/Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance()
+#10 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#11 /app/system/CodeIgniter.php(364): CodeIgniter\Config\BaseService::__callStatic()
+#12 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-12-07 08:22:46 --> syntax error, unexpected token ":", expecting "]"
+#0 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /app/system/Config/Factories.php(136): class_exists()
+#4 /app/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#5 /app/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+#6 /app/system/Config/Services.php(258): config()
+#7 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#8 /app/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#9 /app/system/Config/Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance()
+#10 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#11 /app/system/CodeIgniter.php(364): CodeIgniter\Config\BaseService::__callStatic()
+#12 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-12-07 08:22:57 --> syntax error, unexpected token ":", expecting "]"
+#0 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /app/system/Config/Factories.php(136): class_exists()
+#4 /app/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#5 /app/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+#6 /app/system/Config/Services.php(258): config()
+#7 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#8 /app/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#9 /app/system/Config/Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance()
+#10 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#11 /app/system/CodeIgniter.php(364): CodeIgniter\Config\BaseService::__callStatic()
+#12 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-12-07 08:25:15 --> syntax error, unexpected token ":", expecting "]"
+#0 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /app/system/Config/Factories.php(136): class_exists()
+#4 /app/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#5 /app/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+#6 /app/system/Config/Services.php(258): config()
+#7 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#8 /app/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#9 /app/system/Config/Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance()
+#10 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#11 /app/system/CodeIgniter.php(364): CodeIgniter\Config\BaseService::__callStatic()
+#12 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-12-07 08:25:37 --> syntax error, unexpected token ":", expecting "]"
+#0 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /app/system/Config/Factories.php(136): class_exists()
+#4 /app/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#5 /app/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+#6 /app/system/Config/Services.php(258): config()
+#7 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#8 /app/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#9 /app/system/Config/Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance()
+#10 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#11 /app/system/CodeIgniter.php(364): CodeIgniter\Config\BaseService::__callStatic()
+#12 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-12-07 08:25:41 --> syntax error, unexpected token ":", expecting "]"
+#0 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /app/system/Config/Factories.php(136): class_exists()
+#4 /app/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#5 /app/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+#6 /app/system/Config/Services.php(258): config()
+#7 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#8 /app/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#9 /app/system/Config/Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance()
+#10 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#11 /app/system/CodeIgniter.php(364): CodeIgniter\Config\BaseService::__callStatic()
+#12 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-12-07 08:25:57 --> syntax error, unexpected token ":", expecting "]"
+#0 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /app/system/Config/Factories.php(136): class_exists()
+#4 /app/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#5 /app/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+#6 /app/system/Config/Services.php(258): config()
+#7 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#8 /app/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#9 /app/system/Config/Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance()
+#10 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#11 /app/system/CodeIgniter.php(364): CodeIgniter\Config\BaseService::__callStatic()
+#12 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-12-07 08:27:25 --> syntax error, unexpected token ":", expecting "]"
+#0 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /app/system/Config/Factories.php(136): class_exists()
+#4 /app/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#5 /app/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+#6 /app/system/Config/Services.php(258): config()
+#7 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#8 /app/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#9 /app/system/Config/Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance()
+#10 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#11 /app/system/CodeIgniter.php(364): CodeIgniter\Config\BaseService::__callStatic()
+#12 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-12-07 08:27:52 --> syntax error, unexpected token ":", expecting "]"
+#0 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /app/system/Config/Factories.php(136): class_exists()
+#4 /app/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#5 /app/system/Common.php(198): CodeIgniter\Config\Factories::__callStatic()
+#6 /app/system/Config/Services.php(258): config()
+#7 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#8 /app/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#9 /app/system/Config/Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance()
+#10 /app/system/Config/BaseService.php(248): CodeIgniter\Config\Services::filters()
+#11 /app/system/CodeIgniter.php(364): CodeIgniter\Config\BaseService::__callStatic()
+#12 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#13 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2021-12-07 08:31:04 --> syntax error, unexpected token "class"
+#0 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /app/system/CodeIgniter.php(789): class_exists()
+#4 /app/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 08:31:23 --> syntax error, unexpected token "class"
+#0 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /app/system/CodeIgniter.php(789): class_exists()
+#4 /app/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 08:47:44 --> require(..\globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require()
+#2 /app/system/Autoloader/Autoloader.php(264): include_once('...')
+#3 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /app/system/CodeIgniter.php(789): class_exists()
+#7 /app/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#8 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-07 08:48:01 --> require(..\globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require()
+#2 /app/system/Autoloader/Autoloader.php(264): include_once('...')
+#3 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /app/system/CodeIgniter.php(789): class_exists()
+#7 /app/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#8 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-07 08:48:11 --> require(../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require()
+#2 /app/system/Autoloader/Autoloader.php(264): include_once('...')
+#3 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /app/system/CodeIgniter.php(789): class_exists()
+#7 /app/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#8 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-07 08:48:13 --> require(../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require()
+#2 /app/system/Autoloader/Autoloader.php(264): include_once('...')
+#3 /app/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#4 /app/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#6 /app/system/CodeIgniter.php(789): class_exists()
+#7 /app/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#8 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#9 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-07 08:48:47 --> require(../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:50:59 --> require(../../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:51:01 --> require(../../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:51:01 --> require(../../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:51:10 --> require(..\..\globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:51:11 --> require(..\..\globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:51:22 --> require(../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:52:16 --> require_once(../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require_once()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:53:04 --> require_once(../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require_once()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:53:07 --> require_once(../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require_once()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:53:13 --> require_once(globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require_once()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:53:13 --> require_once(globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require_once()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:53:14 --> require_once(globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require_once()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:54:48 --> require_once(globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require_once()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:55:42 --> require_once(globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require_once()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:55:43 --> require_once(globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require_once()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:55:47 --> require_once(globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require_once()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 08:56:37 --> Undefined constant "App\Controllers\SELF"
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 08:56:52 --> Undefined constant "App\Controllers\BASEPATH"
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 09:00:04 --> syntax error, unexpected token "."
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:00:09 --> syntax error, unexpected token "."
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:02:43 --> syntax error, unexpected token "."
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:02:49 --> syntax error, unexpected token "."
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:03:14 --> require(../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 09:03:54 --> syntax error, unexpected end of file
+#0 /app/system/Router/Router.php(519): include_once()
+#1 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#2 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#3 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-07 09:04:00 --> syntax error, unexpected end of file
+#0 /app/system/Router/Router.php(519): include_once()
+#1 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#2 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#3 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#5 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-07 09:05:53 --> syntax error, unexpected identifier "globals"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:09:08 --> require(../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(4): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 09:12:28 --> Undefined variable $color
+#0 /app/app/Controllers/Helloworld.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:13:10 --> Undefined variable $color
+#0 /app/app/Controllers/Helloworld.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:13:16 --> Undefined variable $color
+#0 /app/app/Controllers/Helloworld.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:13:30 --> Undefined variable $color
+#0 /app/app/Controllers/Helloworld.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:13:43 --> Undefined variable $a
+#0 /app/app/Controllers/Helloworld.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:15:28 --> require(../k.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(5): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 09:15:52 --> require(../k.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(5): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 09:17:45 --> Undefined variable $car
+#0 /app/app/Controllers/Helloworld.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:21:10 --> Undefined variable $a
+#0 /app/app/Controllers/Helloworld.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:21:23 --> Undefined variable $car
+#0 /app/app/Controllers/Helloworld.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:21:51 --> Undefined variable $car
+#0 /app/app/Controllers/Helloworld.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:24:30 --> Undefined variable $car
+#0 /app/app/Controllers/Helloworld.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:32:50 --> Constant DB_HOST already defined
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/globals.php(2): define()
+#2 /app/app/Controllers/Helloworld.php(4): require_once('...')
+#3 /app/system/Router/Router.php(519): include_once('...')
+#4 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#5 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#6 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#7 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-07 09:32:55 --> Constant DB_HOST already defined
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/globals.php(2): define()
+#2 /app/app/Controllers/Helloworld.php(4): require_once('...')
+#3 /app/system/Router/Router.php(519): include_once('...')
+#4 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#5 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#6 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#7 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-07 09:34:14 --> Undefined variable $DB_NAME
+#0 /app/app/Controllers/Helloworld.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 09:34:36 --> require(../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(5): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 09:35:17 --> require(../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(5): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 09:35:23 --> require(../../globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(5): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 09:35:30 --> require(..\..\globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(5): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 09:35:36 --> require(..\globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(5): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 09:35:44 --> require(globals.php): Failed to open stream: No such file or directory
+#0 /app/app/Controllers/Helloworld.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/app/Controllers/Helloworld.php(5): require()
+#2 /app/system/Router/Router.php(519): include_once('...')
+#3 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#4 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#5 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-07 09:51:39 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 09:53:54 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 09:54:42 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 10:00:00 --> Undefined property: stdClass::$title
+#0 /app/app/Controllers/Helloworld.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 10:03:12 --> syntax error, unexpected identifier "value2", expecting ")"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 10:13:05 --> syntax error, unexpected integer "1", expecting "," or ";"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 10:13:19 --> Undefined variable $conn
+#0 /app/app/Controllers/Helloworld.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 10:13:43 --> CodeIgniter\Database\BaseConnection::prepare(): Argument #1 ($func) must be of type Closure, string given, called in /app/app/Controllers/Helloworld.php on line 26
+#0 /app/app/Controllers/Helloworld.php(26): CodeIgniter\Database\BaseConnection->prepare()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 10:15:05 --> CodeIgniter\Database\BaseConnection::prepare(): Argument #1 ($func) must be of type Closure, string given, called in /app/app/Controllers/Helloworld.php on line 26
+#0 /app/app/Controllers/Helloworld.php(26): CodeIgniter\Database\BaseConnection->prepare()
+#1 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#2 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 11:58:38 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 11:58:44 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 11:58:56 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 11:59:02 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:01:31 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:01:49 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:03:05 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:10:28 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:10:29 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:10:54 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:11:53 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:11:54 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:12:09 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:12:20 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:12:21 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:14:14 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:14:15 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:16:02 --> Class "App\Controllers\PDO" not found
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 12:41:54 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 /app/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /app/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /app/system/Common.php(312): CodeIgniter\Database\Config::connect()
+#3 /app/app/Controllers/Helloworld.php(14): db_connect()
+#4 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->comment()
+#5 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

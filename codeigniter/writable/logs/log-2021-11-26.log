@@ -1,0 +1,48 @@
+CRITICAL - 2021-11-26 12:55:10 --> syntax error, unexpected token "class", expecting "{"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-26 12:57:45 --> syntax error, unexpected token "class", expecting "{"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-26 12:57:52 --> syntax error, unexpected token "class", expecting "{"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-26 12:57:56 --> syntax error, unexpected token "class", expecting "{"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-26 13:16:00 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-26 13:16:10 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 /app/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute()
+#1 /app/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle()
+#2 /app/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-26 13:16:37 --> Too few arguments to function App\Controllers\Helloworld::product(), 0 passed in /app/system/CodeIgniter.php on line 824 and exactly 2 expected
+#0 /app/system/CodeIgniter.php(824): App\Controllers\Helloworld->product()
+#1 /app/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /app/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
